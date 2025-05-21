@@ -9,6 +9,20 @@ https://wickerlab.org/join-us/adversarial-time-series/
 
 To run this project and reproduce the results, please follow these steps carefully:
 
+## Download the datasets
+Due to size restrictions on GitHub, the CSV files are not included in this repo. You must download them yourself:
+
+    GlobalLandTemperaturesByCity.csv (approx. 500 MB)
+    Download from Kaggle:
+    https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?resource=download&select=GlobalLandTemperaturesByCity.csv
+
+    Google Stock Data (last 5 years)
+    Download historical stock data (CSV) for Google from Nasdaq:
+    https://www.nasdaq.com/market-activity/stocks/goog/historical
+
+Place these CSV files directly in the root of the cloned repo, or update the path in the notebook accordingly.
+
+
 ### Option 1: Run on Google Colab
 
 - Simply open the notebook on Google Colab and run it no setup required.
@@ -42,20 +56,7 @@ You can install them with pip:
 pip install -r requirements.txt
 ```
 
-### 3. Download the datasets
-Due to size restrictions on GitHub, the CSV files are not included in this repo. You must download them yourself:
-
-    GlobalLandTemperaturesByCity.csv (approx. 500 MB)
-    Download from Kaggle:
-    https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?resource=download&select=GlobalLandTemperaturesByCity.csv
-
-    Google Stock Data (last 5 years)
-    Download historical stock data (CSV) for Google from Nasdaq:
-    https://www.nasdaq.com/market-activity/stocks/goog/historical
-
-Place these CSV files directly in the root of the cloned repo, or update the path in the notebook accordingly.
-
-### 4. Run the Jupyter notebook
+### 3. Run the Jupyter notebook
 
 Open the provided notebook (.ipynb) with Jupyter:
 ```bash
