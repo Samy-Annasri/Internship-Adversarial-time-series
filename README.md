@@ -5,6 +5,10 @@ Adversarial Machine Learning is a field of Machine Learning that focuses on expl
 
 https://wickerlab.org/join-us/adversarial-time-series/
 
+# FOR THE MOMENT
+main.ipynb = light notebook with facto code
+adversial_attack.ipynb = all in one notebook
+
 # Requirements
 
 To run this project and reproduce the results, please follow these steps carefully:
