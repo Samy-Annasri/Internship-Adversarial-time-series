@@ -5,10 +5,6 @@ Adversarial Machine Learning is a field of Machine Learning that focuses on expl
 
 https://wickerlab.org/join-us/adversarial-time-series/
 
-# FOR THE MOMENT
-main.ipynb = light notebook with facto code
-adversial_attack.ipynb = all in one notebook
-
 # Requirements
 
 To run this project and reproduce the results, please follow these steps carefully:
@@ -24,12 +20,13 @@ Due to size restrictions on GitHub, the CSV files are not included in this repo.
     Download historical stock data (CSV) for Google from Nasdaq:
     https://www.nasdaq.com/market-activity/stocks/goog/historical
 
-Place these CSV files directly in the root of the cloned repo, or update the path in the notebook accordingly.
+Place these CSV files directly in the data folder of the cloned repo, or update the path in the notebook accordingly.
 
 
-### Option 1: Run on Google Colab
+### Option 1: Run on Google Colab (easy way)
 
 - Simply open the notebook on Google Colab and run it no setup required.
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Samy-Annasri/Internship-Adversarial-time-series/blob/main/main.ipynb)
 
 ### Option 2: Run Locally
 
