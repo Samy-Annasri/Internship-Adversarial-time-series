@@ -30,7 +30,7 @@ Place these CSV files directly in the root of the cloned repo, or update the pat
 ### Option 1: Run on Google Colab
 
 - Simply open the notebook on Google Colab and run it no setup required.
-
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Samy-Annasri/Internship-Adversarial-time-series/blob/main/main.ipynb)
 ### Option 2: Run Locally
 
 ### 1. Clone the repository
